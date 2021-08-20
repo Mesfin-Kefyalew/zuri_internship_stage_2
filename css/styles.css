@@ -1,0 +1,110 @@
+body{
+    background:rgb(224, 213, 213)
+}
+nav{
+    height: 50px;
+}
+
+#nav_ul>li{
+    display: inline-block;
+    margin-left:10px;
+    margin-right:10px;
+} 
+
+#nav_ul>li:hover{
+    background-color: grey;
+}
+#nav_ul>li>a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
+/*-----------------------*/
+img{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+/*------------------------*/
+#summary_topic, #contact_container,#education_topic, #projects_title, #work_experience_topic{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.644);
+    color: white;
+    
+}
+
+/*-----------------------------------*/
+#about_me_text{
+    background-color: rgb(78, 73, 138);
+    color: white;
+}
+
+
+/*--------work exp and education---------*/
+
+#work_exp_Item, #education_item{
+    margin-bottom: 2em;
+    box-shadow: burlywood;
+}
+
+#remark{
+    background: rgb(238, 241, 238);
+    color:blue;
+}
+
+#position, #edu_inst{
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+    background-color: rgb(88, 88, 134);
+    color: white
+}
+
+#grade{
+    background: rgb(160, 160, 197);
+    color: white;
+    padding-left: 0.5rem;
+}
+#duration{
+    background: rgb(135, 135, 206);
+    color: white;
+    padding-left: 0.5rem;
+}
+
+/***********/
+#contact_container>h4, #reference_container>h4{
+    background: grey;
+    color: white;
+    
+}
+
+#home_num_container>div:nth-child(1), #phone_num_container>div:nth-child(1), #email_container>div:nth-child(1), #address_container>div:nth-child(1), #name_ref{
+    background: rgb(170, 160, 160);
+    color: white;
+    padding-left:1rem;
+    font-weight: bold;
+}
+
+#home_num_container>div:nth-child(2), #phone_num_container>div:nth-child(2), #email_container>div:nth-child(2), #address_container>div:nth-child(2), #ref_position_company, #ref_contact{
+    background: grey;
+    color: white;
+}
+
+
+
+
+/**footer***/
+
+
+@media only screen and (min-width: 768px){
+    
+    #nav_ul>li{
+        margin-left:30px;
+        margin-right:30px;
+    }
+}
+
+
+
